@@ -39,4 +39,13 @@ public class UserService {
         user1.orElseThrow().setAge(userAct.getAge());
         return "actualizado";
     }
+
+    public UserEntity findByName(String name) {
+        UserEntity data =userRepository.findByName(name);
+        return data;
+    }
+
+    public void findByIdEjemplo(Long id) {
+        userRepository.findByIdEjmp(id);
+    }
 }
