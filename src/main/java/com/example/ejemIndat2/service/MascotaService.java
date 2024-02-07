@@ -3,10 +3,12 @@ package com.example.ejemIndat2.service;
 import com.example.ejemIndat2.entity.MascotaEntity;
 import com.example.ejemIndat2.repository.MascotasRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MascotaService {
     @Autowired
     MascotasRepository mascotasRepository;

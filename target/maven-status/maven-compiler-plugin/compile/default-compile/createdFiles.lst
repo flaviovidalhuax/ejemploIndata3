@@ -1,0 +1,9 @@
+com/example/ejemIndat2/repository/UserRepository.class
+com/example/ejemIndat2/controller/MascotasCotroller.class
+com/example/ejemIndat2/service/UserService.class
+com/example/ejemIndat2/service/MascotaService.class
+com/example/ejemIndat2/controller/UserControlller.class
+com/example/ejemIndat2/repository/MascotasRepository.class
+com/example/ejemIndat2/EjemIndat2Application.class
+com/example/ejemIndat2/entity/MascotaEntity.class
+com/example/ejemIndat2/entity/UserEntity.class

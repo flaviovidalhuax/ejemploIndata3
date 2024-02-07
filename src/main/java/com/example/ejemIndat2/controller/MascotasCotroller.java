@@ -2,13 +2,14 @@ package com.example.ejemIndat2.controller;
 
 import com.example.ejemIndat2.entity.MascotaEntity;
 import com.example.ejemIndat2.service.MascotaService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/v1/mascotas/")
 public class MascotasCotroller {
